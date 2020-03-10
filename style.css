@@ -84,7 +84,6 @@ header .logo{
 	margin-top: 55px;
 }
 
-
 header .text_right{
 	font-size: 14px;
 	font-family: 'Proxima Nova Light';
@@ -93,7 +92,6 @@ header .text_right{
 	text-align: right;
 	margin-top: -25px;
 	z-index: 2!important;
-
 }
 
 header h1, footer h1{
@@ -185,7 +183,6 @@ header .buttons a:hover, footer .buttons a:hover{
 	padding-bottom: 80px;
 }
 
-
 .container2 .text_center, .container3 .text_center{
 	font-family: 'Proxima Nova Bold';
 	font-size: 36px;
@@ -216,6 +213,8 @@ header .buttons a:hover, footer .buttons a:hover{
 .container2 .block3{
 	background-color: #5e42b0;
 }
+
+
 .container2 .block3 .text_center span{
 	font-size: 20px;
 	color: #000000;
@@ -243,6 +242,7 @@ header .buttons a:hover, footer .buttons a:hover{
 .container3 .text_center{
 	color: #e7e7e7;
 }
+
 .container3 .block2{
 	background-color: #f5f6f7;
 	padding-top: 80px;
@@ -272,13 +272,13 @@ header .buttons a:hover, footer .buttons a:hover{
 .container5 .foto1{
 	display: flex;
 	align-items: center;
-	
 }
+
 .foto1 img{
 	width: 50%;
 	height: 100%;
-
 }
+
 .foto1 p {
 	display: inline-block;
 	text-align: left;
@@ -289,24 +289,26 @@ header .buttons a:hover, footer .buttons a:hover{
 }
 
 .foto1 p span {
-
 	display: block;
 	text-align: left;
 	font-size: 24px;
 	font-family: 'Proxima Nova Regular';
 	color: #000000;
 	margin-top: 60px;
+	border-bottom: 5px solid #855efa;
 }
+
 .container5 .foto2{
 	display: flex;
 	align-items: center;
 	
 }
+
 .foto2 img{
 	width: 50%;
 	height: 100%;
-
 }
+
 .foto2 p {
 	display: inline-block;
 	text-align: left;
@@ -317,45 +319,48 @@ header .buttons a:hover, footer .buttons a:hover{
 }
 
 .foto2 p span {
-
 	display: block;
 	text-align: left;
 	font-size: 24px;
 	font-family: 'Proxima Nova Regular';
 	color: #000000;
 	margin-top: 60px;
+	border-bottom: 5px solid #855efa;
 }
+
 .container5 .foto3{
 	display: flex;
 	align-items: center;
 }
+
 .cub {
 
 	position: absolute;
-	width: 168px;
-	height: 168px;
+	left: 45%;
+	width: 10%;
 	background-color: #5e42b0;
-	margin: auto 34%;
 	display:block;
-	justify-content: center;
 
 }
 .oval{
-
-		width: 22px;
-		height: 5px;
-		background-color: #8f7bc8;
-		border-radius: 3px;
-		margin: auto;
+	width: 22px;
+	height: 5px;
+	background-color: #8f7bc8;
+	border-radius: 3px;
+	margin: auto;
 }
+
 .cub span {
 	text-align: center;
 	font-size: 24px;
 	font-family: 'Proxima Nova Bold';
 	color: #f5f6f7;
+	border-bottom: 5px solid #855efa;
     display: block;
-    margin-top: 40%;
+	padding-top: 30%;
+	margin-bottom: 45%;
 }
+
 .foto3 p {
 	display: inline-block;
 	text-align: left;
@@ -366,37 +371,33 @@ header .buttons a:hover, footer .buttons a:hover{
 }
 
 .foto3 p span {
-
 	display: block;
 	text-align: left;
 	font-size: 24px;
 	font-family: 'Proxima Nova Regular';
 	color: #000000;
 	margin-top: 60px;
+	border-bottom: 5px solid #855efa;
 }
 
 .foto3 img{
 	width: 50%;
 	height: 100%;
 }
+
 footer{
 	background-image: url('./images/footer.png');
-	
 	width: 100%;
 	background-size: cover;
-	
 }
-
 
 footer h1{
 	text-transform: uppercase;
 	text-align: left;
 	margin-top: 0px;
-		
 }
 
 footer .block span{
-	
 	font-family: 'Proxima Nova Bold';
 	text-transform: uppercase;
 	text-align: left;
@@ -404,6 +405,7 @@ footer .block span{
 	color: #a496ca;
 	margin-right: 18%;
 }
+
 footer .block{
 	margin-top: 230px;
     margin-bottom: 15px;
@@ -411,67 +413,57 @@ footer .block{
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	
 }
+
 .foto1 img{
 	position: relative;	
 }
+
 .block>div {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 36px;
 	height: 15vh;
-	
 }
 
 footer .buttons{
-	
 	clear: both;
 	margin-top: 7%;
 	text-align: center;
 	margin: 200px auto;
-
-
-
 }
-
-
-
 
 footer .footer1{
 	display: flex;
 	padding: 60px 25px;
 	background-color: hsla(230, 63%, 20%, 0.8);
 	justify-content: space-between;
-
 }
+
 footer .logo{
 	display: flex;
 	text-align: left;
 	flex-shrink: inherit;
 	
 }
+
 footer .seti{
 	display: flex;
 	flex-wrap: unset;
 }
 footer .seti i{
 	display: inline-block;
-	
 	font-size: 25px;
 	color: #ffffff;
-	
 	text-align: center;
-	
 	margin-left: 40px;
-	
 }
+
 footer p {
-	
 	font-size: 21px;
 	color: #ffffff;
-	
 }
+
 .span-before {
 	position: absolute;
 	height: 200px;
@@ -479,21 +471,27 @@ footer p {
 	z-index: 0;
 	transform: translate(10vw, -40px) rotate(45deg);
 }
+
 .span-after {
 	position: absolute;
+	left: 250px;
+    margin-top: 450px;
 	height: 300px;
 	border: 3px solid #9172e6;
 	z-index: 0;
 	transform: translate(46vw, -350px) rotate(45deg);
 }
+
 @media(min-height: 960px){
 	header h1{
 		margin-top: 300px;
 	}
+
 	header .buttons, footer .buttons {
 		margin-top: 100px;
 		margin-left: 0px;
 	}
+
 	footer h1{
 		margin-top: -20px
 	}
@@ -502,6 +500,7 @@ footer p {
 		font-size: 36px;
 		
 	}
+
 	.foto1 p, .foto2 p, .foto3 p{
 		margin:0 auto;
 	} 
@@ -511,82 +510,107 @@ footer p {
 	.container2 img,.container3 img{
 		margin-left: 0;
 	}
+
 	footer h1{
 		margin-top: -20px;
 	}
+
 	.foto1 p, .foto2 p, .foto3 p  {
 		margin-bottom: auto;
 		margin-top: 5%;
 	}
 	
-}
 
 @media(max-width: 1250px){
 	header h1, .container2 h2,.container3 h2, footer h1, .container5 p{
 		font-size: 70px;
 	}
+
 	footer .block span, .container5 span{
 		font-size: 28px;
 
 	}
+
 	header .menu li a{
 		padding: 0 15px;
 	}
+
 	.container2 img{
-		width: 50%;}
+		width: 50%;
+	}
 
 	.container3 img{
 		width:70%;
 		margin-top: -2%;
 	}
+
 	footer h1{
 		margin-top: 2px;
 	}
+
 	.block img{
 		width: 9%;
 	}
-	
+
+	.span-before, .span-before{ 
+		left: 400px;
+	}
+}
 }
 
 @media(max-width: 1024px){
 	header h1, .container2 h2, .container3 h2, footer h1{
 		font-size: 58px;
 	}
+
 	footer .block span, footer .logo{
 		font-size: 22px;
-
 	}
+
 	header .menu li a{
 		padding: 0 10px;
 	}
+
 	footer h1{
 		margin-top: 33px;
 	}
+
 	.block img{
 		width: 8%;
 	}
-	
+
+	.span-before, .span-after, .example{ 
+		display:none;
+	}
+
+	.foto1 p, .foto2 p, .foto3 p  {
+		margin: auto 10% auto 8%;
+	}
 }
 
 @media(max-width: 768px){
 	header h1, .container2 h2, .container3 h2, .container5 p{
 		font-size: 44px;
 	}
+
 	 .container5 span{
 		font-size: 18px;
-
 	}
+	
 	header .menu li a{
 		padding: 0 5px;
 	}
+
 	header .buttons a, footer .buttons a{
 		display: block;
 		margin: 0 auto;
 	}
+
 	header .buttons a:first-child, footer .buttons a:first-child{
 		margin-right: auto;
 		margin-bottom: 20px;
 	}
+
 	.container2 img,.container2 h2,.container3 img,.container3 h2{
 		display: block;
 		margin: 0 auto;
@@ -597,9 +621,11 @@ footer p {
 	footer h1{
 		margin-top: 33px;
 	}
+
 	.block img{
 		width: 12%;
 	}
+
 	footer .block span{
 		margin-right: 22%;
 	}
@@ -610,26 +636,41 @@ footer p {
 	header h1, .container2 h2,.container2 h2, .container3 h2,.container3 h2,.container5 p{
 		font-size: 32px;
 	}
+
 	footer .block span,.container5 span{
 		font-size: 14px;
 
 	}
+
 	header .buttons a, footer .buttons a{
 		padding: 6px 40px 20px 30px;
 	}
+
 	.block img{
 		width: 16%;
 	}
+
 	footer h1{
 		margin-top: 33px;
 		font-size: 34px;
 	}
+
 	.foto1 p, .foto2 p, .foto3 p{
 		margin:0 auto;
 	} 
+
 	footer .block span{
 		margin-right: 14%;
 	}
+
+	.foto1 p, .foto2 p, .foto3 p  {
+		margin: 0 0% 0 8%;	
+	}
+	
+	.foto1 p span, .foto2 p span, .foto3 p span, .foto1 p, .foto2 p, .foto3 p{
+		font-size: 15px;
+	}
+
 }
 
 @media(max-width: 425px){
@@ -637,22 +678,28 @@ footer p {
 		width: 35%;
 		margin-top: 25px;
 	}
+
 	header .text_right, footer .text_right{
 		font-size: 12px;
 		margin-top: -17px;
 	}
+
 	header h1 span, footer h1 span{
 		text-align: left;
 	}
+
 	header h1{
 		margin-top: 20vh;
 	}
+
 	header, footer{
 		background-position-x: 45%;
 	}
+
 	.foto1 p, .foto2 p, .foto3 p{
 		margin:0 auto;
 	} 
+	
 	footer .block span{
 		margin-right: 15%;
 	}
